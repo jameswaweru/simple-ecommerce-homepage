@@ -38,11 +38,15 @@
       <p class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-2xl rounded-xl">Dating</p>
     </div>
 
-     <div class="h-44 rounded-xl shadow-md relative">
+    <router-link :to="{ name: 'Gifts' }">
+    <div class="h-44 rounded-xl shadow-md relative">
       <img class="h-full object-cover rounded-xl" src="https://img.freepik.com/free-vector/festive-banner-with-new-year-merry-christmas_153074-151.jpg?w=1380" alt="">
       <p class="absolute top-0 bg-black bg-opacity-10 hover:bg-opacity-50 w-full h-full rounded-xl"></p>
       <p class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-2xl rounded-xl">Gifts</p>
     </div>
+    </router-link>
+
+     
 
      <div class="h-44 rounded-xl shadow-md relative">
       <img class="h-full object-cover rounded-xl" src="https://img.freepik.com/free-photo/different-car-accessories-arrangement_23-2149030413.jpg?w=900" alt="">
